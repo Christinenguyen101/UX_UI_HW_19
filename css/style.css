@@ -1,0 +1,150 @@
+/* ver 2.0 */
+/** ==========  PINK BOX =========== **/
+.pink-box { 
+    border: 3px solid #F2C4C8;
+    background-color: rgba(242, 196,200, 0.4);
+    font-family: 'Mulish', sans-serif;
+    margin: 30px;
+    padding: 30px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+.pink-box p{
+    text-align: center;
+    font-weight: 1000;
+
+}
+
+.pink-box-title {
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.pink-box img {
+    height: 30px;
+    float: left;
+}
+
+.pink-box p.thick {
+    font-weight: 200;
+  }
+  .pink-box-project { 
+    border: 3px solid #F2C4C8;
+    background-color: rgba(242, 196,200, 0.4);
+    font-family: 'Mulish', sans-serif;
+    margin: 30px;
+    padding: 30px;
+    font-weight: 300;
+    font-size: 25px;
+    height:800px;
+}
+.little-pink-box{
+    border:3px solid lightpink;
+    background-color: white;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    height: 100px;
+
+}
+/** ==========  CUSTOM CSS =========== **/
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+.tile.is-parent {
+    padding: 0px;
+}
+
+.box {
+    box-shadow: none;
+    background-color: #ffffff00;
+}
+
+.container {
+    width: 100%;
+}
+
+/** ==========  NAVIGATION BAR =========== **/
+
+.is-active{
+
+    display: block;  
+}
+
+#navbar{ 
+    height: 120px;
+    border: solid 3px lightPink;
+    margin-bottom: 50px;
+    background-color: #ffd8e4;
+
+}
+
+.navbar-left-items {
+    float: left;
+    display: block;
+    position: relative; 
+}
+
+.navbar-right-items {
+    float: right;
+    display: block;
+}
+
+.nav-logo{
+    height: 100px;
+}
+
+.sidebar{
+    position: absolute;
+    display: block;
+    right: 0px;
+    background-color: white;
+    border: solid 3px lightpink;
+    z-index:9;
+    top:120px;
+    height: 450px;
+
+}
+.sidebar ul{
+    margin-top:20%
+}
+.sidebar li{
+    font-size: 35px;
+    padding-top: 30px;
+}
+.is-hidden{
+    display:none;
+}
+.nav-ham{ 
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+footer{ 
+    text-align: center;
+    margin: 30px;
+
+}
+body {
+    background-image: url("background_crane.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+.avatar{ 
+    height:auto;
+    max-width: 55%;
+    background-color: #ffd8e4;
+    border: solid 5px LightPink;
+    margin-left: 60px;
+}
