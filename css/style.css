@@ -1,4 +1,4 @@
-/* ver 2.0 */
+
 /** ==========  PINK BOX =========== **/
 .pink-box { 
     border: 3px solid #F2C4C8;
@@ -49,6 +49,8 @@
     height: 100px;
 
 }
+
+
 /** ==========  CUSTOM CSS =========== **/
 ul {
     list-style-type: none;
